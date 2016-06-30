@@ -1,0 +1,42 @@
+@import url(https://fonts.googleapis.com/css?family=Lato);
+
+.navbar {
+	margin-bottom:0 !important;
+}
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+	padding-top:10px;
+	padding-bottom:10px;
+}
+
+.navbar-collapse {
+	background-color: #91151b;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default, .navbar-nav>.active>a:hover  {
+	background-color: transparent !important;
+}
+
+.navbar-nav>.active>a:hover {
+	font-weight:bolder;
+	color: yellow
+}
+
+.nav li a {
+	color: #fff !important;
+}
+
+body, a, div {
+	font-family:Lato, sans-serif;
+}
+
+.hero {
+	max-height: 100vh;
+	width:100vw
+}
+
+.container-fluid {
+	padding-right: 0px !important;
+	padding-left: 0px !important;
+}
+
